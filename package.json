@@ -1,0 +1,26 @@
+{
+  "name": "Training",
+  "version": "1.0.0",
+  "description": "TS and Protractor",
+  "author": "",
+  "license": "Endava",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "mocha",
+    "debug": "node --inspect --debug-brk ./node_modules/.bin/protractor asyncAwait/conf.js"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.8.9",
+    "@types/jasminewd2": "^2.0.5",
+    "jasmine": "^3.2.0",
+    "mocha": "^5.2.0",
+    "protractor": "^5.4.1",
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.5",
+    "jasmine": "^3.2.0",
+    "ts-node": "^7.0.1"
+  }
+}
